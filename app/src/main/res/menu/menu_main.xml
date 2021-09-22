@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jesusminero.sqliteescuela.MainActivity">
+    <item
+        android:title="Alta"
+        android:orderInCategory="101"
+        android:id="@+id/alta" />
+    <item
+        android:title="Baja"
+        android:orderInCategory="102"
+        android:id="@+id/baja" />
+    <item
+        android:title="Consulta por DNI"
+        android:orderInCategory="103"
+        android:id="@+id/consulta" />
+    <item
+        android:title="Modificar"
+        android:orderInCategory="104"
+        android:id="@+id/modificar" />
+    <item
+        android:title="Mostrar tabla"
+        android:orderInCategory="105"
+        android:id="@+id/mostrar" />
+</menu>
